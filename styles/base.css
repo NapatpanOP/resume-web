@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  position: relative;
+}
+
+.bar-color {
+  width: 80px;
+  background-color: #466770;
+}
+
+.content {
+  display: grid;
+  gap: 5rem;
+  margin: 5rem;
+}
+
+.content-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: center;
+  height: max-content;
+}
+
+.content-box-add-align-items {
+  align-items: center;
+}
