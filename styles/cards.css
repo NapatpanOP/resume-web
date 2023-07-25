@@ -15,6 +15,7 @@
   width: 300px;
   padding: 4rem 2rem;
   color: #fff;
+  font-size: 15px;
 }
 
 .card-head h2 {
@@ -39,6 +40,18 @@
 
 .card-fill-head {
   font-weight: 600;
+}
+
+.card-fill-education-details {
+  line-height: 1.5rem;
+}
+
+.card-fill-education-details h4 {
+  font-weight: 600;
+}
+
+.bachelor {
+  margin-bottom: 2rem;
 }
 
 .contact {
