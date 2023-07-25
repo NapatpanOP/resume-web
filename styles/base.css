@@ -1,27 +1,21 @@
 .container {
-  display: flex;
-  position: relative;
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
 .bar-color {
-  width: 80px;
   background-color: #466770;
 }
 
 .content {
   display: grid;
-  gap: 5rem;
-  margin: 5rem;
 }
 
 .content-box {
   display: flex;
   flex-wrap: wrap;
-  gap: 5rem;
-  justify-content: center;
-  height: max-content;
+  max-width: 768px;
+  margin: 4rem auto 0 4rem;
+  gap: 2rem;
 }
 
-.content-box-add-align-items {
-  align-items: center;
-}
