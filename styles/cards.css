@@ -38,7 +38,7 @@
 .line-head-contact::before {
   background-color: var(--line-bg-contact);
   content: '';
-  height: 10px;
+  height: 8px;
   position: absolute;
   z-index: -1;
   bottom: -2px;
@@ -50,7 +50,7 @@
 .line-head-programming::before {
   background-color: var(--line-bg-programming);
   content: '';
-  height: 10px;
+  height: 8px;
   position: absolute;
   z-index: -1;
   bottom: -2px;
@@ -63,7 +63,7 @@
 .line-head-education::before {
   background-color: var(--line-bg-education);
   content: '';
-  height: 10px;
+  height: 8px;
   position: absolute;
   z-index: -1;
   bottom: -2px;
@@ -75,7 +75,7 @@
 .line-head-soft-skill::before {
   background-color: var(--line-bg-soft-skill);
   content: '';
-  height: 10px;
+  height: 8px;
   position: absolute;
   z-index: -1;
   bottom: -2px;
