@@ -52,3 +52,8 @@
   list-style-type: disc;
   margin: 10px 0;
 }
+
+.programming li:last-child, .soft-skill li:last-child {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
