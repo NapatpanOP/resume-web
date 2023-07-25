@@ -41,3 +41,8 @@
   background-color: var(--bg-soft-skill);
   border-radius: 0px 30px;
 }
+
+.programming li, .soft-skill li {
+  list-style-type: disc;
+  margin: 10px 0;
+}
