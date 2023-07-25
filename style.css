@@ -1,37 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
+@import "styles/base.css";
 @import "styles/profile-head.css";
-@import "styles/card.css";
+@import "styles/cards.css";
 
 body {
   margin: 0;
   background-color: #F1EAE0;
   font-family: 'Lexend', sans-serif;
-}
-
-.container {
-  display: flex;
-  position: relative;
-}
-
-.bar-color {
-  width: 200px;
-  background-color: #466770;
-}
-
-.content {
-  display: grid;
-  gap: 5rem;
-  margin: 5rem;
-}
-
-.content-box {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5rem;
-  justify-content: center;
-  height: max-content;
-}
-
-.content-box-add-align-items {
-  align-items: center;
 }
