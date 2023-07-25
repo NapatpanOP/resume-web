@@ -1,0 +1,28 @@
+.profile-photo {
+  width: 400px;
+  height: 500px;
+  border-radius: 9px 0px;
+  background-image: url("./assets/IMG_7861.JPG");
+  background-size: cover;
+  background-position: center;            
+}
+
+.profile-text-box {
+  width: 50%;
+}
+
+.profile-text-box h1 {
+  font-size: 50px;
+  color: #7C646E;
+}
+
+.profile-text-box h3 {
+  font-size: 25px;
+  color: #878482;
+  font-weight: 400;
+}
+
+.profile-text-box p {
+  font-weight: 400;
+  color: #878482;
+}

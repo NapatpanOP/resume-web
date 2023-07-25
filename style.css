@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
+@import "styles/profile-head.css";
+@import "styles/card.css";
 
 body {
   margin: 0;
@@ -11,7 +13,7 @@ body {
   position: relative;
 }
 
-.barColor {
+.bar-color {
   width: 200px;
   background-color: #466770;
 }
@@ -22,100 +24,14 @@ body {
   margin: 5rem;
 }
 
-.content-box1 {
+.content-box {
   display: flex;
   flex-wrap: wrap;
   gap: 5rem;
   justify-content: center;
+  height: max-content;
+}
+
+.content-box-add-align-items {
   align-items: center;
-  height: max-content;
-}
-
-.profile-photo {
-  width: 400px;
-  height: 500px;
-  border-radius: 9px 0px;
-  background-image: url("./assets/IMG_7861.JPG");
-  background-size: cover;
-  background-position: center;
-}
-
-.profile-text-box {
-  width: 50%;
-}
-
-.profile-text-box h1 {
-  font-size: 50px;
-  color: #7C646E;
-}
-
-.profile-text-box h3 {
-  font-size: 25px;
-  color: #878482;
-  font-weight: 400;
-}
-
-.profile-text-box p {
-  font-weight: 400;
-  color: #878482;
-}
-
-.content-box2 {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5rem;
-  justify-content: center;
-  height: max-content;
-}
-
-.contact {
-  width: 400px;
-  height: max-content;
-  background-color: #7B616C;
-  border-radius: 0px 9px;
-  padding: 2rem;
-  color: #fff;
-}
-
-.contact h2 {
-  text-align: center;
-}
-
-.education {
-  width: 400px;
-  height: max-content;
-  border-radius: 9px 0px;
-  background-color: #B47B6A;
-  padding: 2rem;
-  color: #fff;
-}
-
-.education h2 {
-  text-align: center;
-}
-
-.programming {
-  width: 400px;
-  height: max-content;
-  border-radius: 9px 0px;
-  background-color: #646E66;
-  padding: 2rem;
-  color: #fff;
-}
-
-.programming h2 {
-  text-align: center;
-}
-
-.softSkill {
-  width: 400px;
-  height: max-content;
-  border-radius: 0px 9px;
-  background-color: #67818B;
-  padding: 2rem;
-  color: #fff;
-}
-
-.softSkill h2 {
-  text-align: center;
 }
