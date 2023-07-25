@@ -18,8 +18,10 @@
 }
 
 .card-head h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 2rem;
   text-align: center;
-  margin: 0;
 }
 
 .contact {
@@ -40,6 +42,10 @@
 .soft-skill {
   background-color: var(--bg-soft-skill);
   border-radius: 0px 30px;
+}
+
+.programming ul, .soft-skill ul {
+  padding: 0 1rem;
 }
 
 .programming li, .soft-skill li {
