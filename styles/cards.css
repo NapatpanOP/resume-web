@@ -1,8 +1,14 @@
 :root {
-  --bg-contact : #7B616C;
-  --bg-education : #B47B6A;
-  --bg-programming : #646E66;
-  --bg-soft-skill : #67818B;
+  --bg-contact      : #7B616C;
+  --bg-education    : #B47B6A;
+  --bg-programming  : #646E66;
+  --bg-soft-skill   : #67818B;
+
+
+  --line-bg-contact     : #BF9C91;
+  --line-bg-education   : #646E66;
+  --line-bg-programming : #81A8B7;
+  --line-bg-soft-skill  : #5E6560;
 }
 
 .content-box-cards {
@@ -18,11 +24,63 @@
   font-size: 15px;
 }
 
-.card-head h2 {
+.card-head {
   font-size: 25px;
   font-weight: 600;
-  margin-bottom: 2rem;
+  position: relative;
+  z-index: 0;
+  width: max-content;
+  margin: 0 auto 2rem;
   text-align: center;
+}
+
+.line-head-contact::before {
+  background-color: var(--line-bg-contact);
+  content: '';
+  height: 10px;
+  position: absolute;
+  z-index: -1;
+  bottom: -2px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.line-head-programming::before {
+  background-color: var(--line-bg-programming);
+  content: '';
+  height: 10px;
+  position: absolute;
+  z-index: -1;
+  bottom: -2px;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  left: 15px;
+}
+
+.line-head-education::before {
+  background-color: var(--line-bg-education);
+  content: '';
+  height: 10px;
+  position: absolute;
+  z-index: -1;
+  bottom: -2px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.line-head-soft-skill::before {
+  background-color: var(--line-bg-soft-skill);
+  content: '';
+  height: 10px;
+  position: absolute;
+  z-index: -1;
+  bottom: -2px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
 }
 
 .card-fill {
