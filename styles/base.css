@@ -16,7 +16,7 @@
   display: flex;
   flex-wrap: wrap;
   max-width: 768px;
-  margin: 4rem auto 0 4rem;
+  margin: 5rem auto 0 4rem;
   gap: 2rem;
 }
 
