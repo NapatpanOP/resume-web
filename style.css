@@ -2,7 +2,6 @@
 @import "styles/base.css";
 @import "styles/profile-head.css";
 @import "styles/cards.css";
-@import "styles/mood-color.css";
 
 body {
   background-color: #F1EAE0;
