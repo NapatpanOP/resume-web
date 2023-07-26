@@ -54,10 +54,10 @@
   position: absolute;
   z-index: -1;
   bottom: -1px;
-  width: 84%;
+  width: 81%;
   margin: 0 auto;
   display: flex;
-  left: 15px;
+  left: 17px;
 }
 
 .line-head-education::before {
