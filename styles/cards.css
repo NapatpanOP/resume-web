@@ -1,14 +1,16 @@
 :root {
-  --bg-contact      : #7B616C;
-  --bg-education    : #B47B6A;
-  --bg-programming  : #646E66;
-  --bg-soft-skill   : #67818B;
+  --bg-contact            : #797d62;
+  --bg-education          : #baa587;
+  --bg-programming        : #d08c60;
+  --bg-soft-skill         : #997b66;
+  --bg-work-experience    : #e8ac65;
 
 
-  --line-bg-contact     : #BF9C91;
-  --line-bg-education   : #646E66;
-  --line-bg-programming : #81A8B7;
-  --line-bg-soft-skill  : #5E6560;
+  --line-bg-contact         : #e8ac65;
+  --line-bg-education       : #797d62;
+  --line-bg-programming     : #ffcb69;
+  --line-bg-soft-skill      : #baa587;
+  --line-work-experience    : #9b9b7a;
 }
 
 .content-box-cards {
@@ -20,7 +22,7 @@
 .card {
   width: 300px;
   padding: 4rem 2rem;
-  color: #f3f3f3;
+  color: #1d1d1d;
   font-size: 15px;
 }
 
@@ -85,7 +87,7 @@
 }
 
 .line-head-work-experience::before {
-  background-color: var(--line-bg-contact);
+  background-color: var(--line-work-experience);
   content: '';
   height: 8px;
   position: absolute;
@@ -150,11 +152,11 @@
 }
 
 .work-experience {
-  background-color: var(--bg-contact);
+  background-color: var(--bg-work-experience);
   border-radius: 0px 30px;
 }
 
-.programming ul, .soft-skill ul {
+.programming ul, .soft-skill ul, .work-experience ul {
   padding: 0 1rem;
 }
 
@@ -165,11 +167,11 @@
 
 .work-experience a {
   text-decoration: none;
-  color: #fff;
+  color: #1d1d1d;
 }
 
 .work-experience a:hover {
-  color: #f6ae98;
+  color: #d6d6d6;
 }
 
 .programming li:last-child, .soft-skill li:last-child {
